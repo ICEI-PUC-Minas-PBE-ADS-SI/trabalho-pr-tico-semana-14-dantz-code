@@ -1,18 +1,79 @@
 {
-  "usuarios": [
+  "destinos": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": 1,
+      "titulo": "Dolphin Mall, Miami USA",
+      "imagem": "dolphin-mall-ramblas.jpg",
+      "resumo": "O maior outlet de Miami, com variedade de lojas e entretenimento.",
+      "conteudo": "O Dolphin Mall é um dos maiores shoppings de Miami, oferecendo uma ampla variedade de lojas, outlets, restaurantes e opções de entretenimento para toda a família.",
+      "categoria": "Shopping",
+      "destaque": true
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": 2,
+      "titulo": "Sea World, San Diego USA",
+      "imagem": "sandiego.png",
+      "resumo": "Parque aquático com shows de animais marinhos e montanhas-russas.",
+      "conteudo": "SeaWorld San Diego é um parque temático e aquático com incríveis shows de animais marinhos, montanhas-russas emocionantes e experiências interativas.",
+      "categoria": "Parque Aquático",
+      "destaque": true
+    },
+    {
+      "id": 3,
+      "titulo": "Central Park, New York USA",
+      "imagem": "Central-Park.jpg",
+      "resumo": "Parque urbano icônico com paisagens deslumbrantes e atrações culturais.",
+      "conteudo": "Central Park, em Nova York, é um icônico parque urbano com paisagens deslumbrantes, trilhas, lagos, áreas de lazer e atrações culturais, perfeito para passeios e atividades ao ar livre.",
+      "categoria": "Parque Urbano",
+      "destaque": false
+    },
+    {
+      "id": 5,
+      "titulo": "Cataratas do Niágara, Nova York",
+      "descricao": "Maravilha natural",
+      "conteudo": "Cataratas do Niágara, em Nova York, são um dos mais impressionantes espetáculos naturais, com quedas d'água majestosas, passeios de barco emocionantes e vistas deslumbrantes.",
+      "categoria": "Atração Natural",
+      "imagem": "niaraga.png"
+    },
+    {
+      "id": 6,
+      "titulo": "Museu Metropolitano de Arte",
+      "descricao": "O famoso MET",
+      "conteudo": "O Museu Metropolitano de Arte, em Nova York, é um dos maiores e mais prestigiosos museus do mundo, abrigando uma coleção impressionante de arte e artefatos de diversas culturas e épocas.",
+      "categoria": "Museu",
+      "imagem": "museum.jpg"
+    },
+    {
+      "id": 7,
+      "titulo": "Estátua da Liberdade, Nova York",
+      "descricao": "Símbolo americano",
+      "conteudo": "A Estátua da Liberdade, em Nova York, é um dos maiores símbolos dos Estados Unidos, representando liberdade e democracia, com vistas incríveis da cidade a partir de sua coroa.",
+      "categoria": "Monumento",
+      "imagem": "estatua.jpg"
+    },
+    {
+      "id": 8,
+      "titulo": "Golden Gate Bridge, Califórnia",
+      "descricao": "Ponte icônica de SF",
+      "conteudo": "A Golden Gate Bridge, na Califórnia, é uma das pontes mais icônicas do mundo, ligando San Francisco a Marin County, com vistas deslumbrantes e uma arquitetura impressionante.",
+      "categoria": "Ponte",
+      "imagem": "golden-gate.jpg"
+    },
+    {
+      "id": 9,
+      "titulo": "Casa Branca, Washington",
+      "descricao": "Sede do governo",
+      "conteudo": "A Casa Branca, em Washington, D.C., é a residência oficial e escritório do presidente dos Estados Unidos, um símbolo histórico e político do país, aberta para visitas guiadas.",
+      "categoria": "Marco Político",
+      "imagem": "casa-branca.jpg"
+    },
+    {
+      "id": 10,
+      "titulo": "Las Vegas Strip, Nevada",
+      "descricao": "Capital do entretenimento",
+      "conteudo": "A Las Vegas Strip, em Nevada, é uma avenida vibrante repleta de cassinos icônicos, hotéis luxuosos, shows espetaculares e uma vida noturna intensa, tornando-se um dos destinos mais famosos do mundo.",
+      "categoria": "Entretenimento",
+      "imagem": "the-strip.jpg"
     }
   ]
 }

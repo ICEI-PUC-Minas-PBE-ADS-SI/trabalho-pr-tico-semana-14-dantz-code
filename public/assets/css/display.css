@@ -1,0 +1,193 @@
+/* Layout principal */
+body {
+    background-image: url('img/oceano.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    color: rgb(248, 246, 246);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navegação */
+header {
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-shadow: 
+        2px -2px 0 black, 
+        -2px 2px 0 black, 
+        2px 2px 0 black, 
+        -2px -2px 0 black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    display: inline-block;
+    background-color: rgb(4, 46, 92);
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background-color: rgb(3, 35, 70);
+}
+
+/* Container dos cards turísticos */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribui os cards de forma equilibrada */
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+/* Estilo dos cards */
+.card-turistico {
+    width: 32%; /* Ajuste para garantir que 3 cards se distribuam bem por linha */
+    background-color: rgb(4, 46, 92);
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-turistico:hover {
+    transform: scale(1.05); /* Efeito de zoom suave nos cards */
+}
+
+/* Imagens dentro dos cards */
+.card-turistico img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+/* Links dentro dos cards turísticos */
+.card-turistico a {
+    color: #00bfff; /* azul claro chamativo */
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.card-turistico a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Informações fixas acima dos cards */
+.info-site {
+    background-color: rgb(4, 46, 92);
+    width: 100%;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;
+    border-radius: 20px;
+    opacity: 0.9;
+    margin-bottom: 30px;
+}
+
+.info-site img {
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+/* Rodapé */
+.footer {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgba(4, 46, 92, 0.9);
+    color: white;
+    border-radius: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    opacity: 0.9;
+    text-align: center;
+    text-shadow:
+        2px -2px 0 black,
+        -2px  2px 0 black,
+        2px  2px 0 black,
+        -2px -2px 0 black;
+}
+
+/* Responsividade - Ajuste para telas médias */
+@media (max-width: 1000px) {
+    .card-turistico {
+        width: 48%; /* Dois cards por linha em telas médias */
+    }
+}
+
+/* Responsividade - Ajuste para telas pequenas */
+@media (max-width: 600px) {
+    .card-turistico {
+        width: 100%; /* Um card por linha em telas pequenas */
+    }
+
+    .cards-container {
+        gap: 10px; /* Menos espaçamento entre os cards em telas pequenas */
+    }
+}
+
+/* Corrige o layout para o footer ficar sempre no fim */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Faz o conteúdo principal crescer para ocupar o espaço */
+main.container {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Estilo para imagens na página de detalhes */
+.img-detalhe {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 20px 0;
+}
