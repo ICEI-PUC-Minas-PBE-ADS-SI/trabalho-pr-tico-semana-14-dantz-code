@@ -5,20 +5,21 @@ Nesta atividade, você irá completar o projeto anterior permitindo cadastrar e 
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Danton Rodrigues Diniz
+- Matricula: 882849
+- Proposta de projeto escolhida: Guia de Local Túristico
+- Breve descrição sobre seu projeto:  
+Meu projeto é um projeto que se consiste em informar locais túristicos especificamente nos Estados Unidos, com imagens que mostram um pouco do lugar, informa a cidade que se encontra com suporte - também pra mobiles.
 
 **Print do testes da API com Postman ou similar**
 
-<<  COLOQUE A IMAGEM GET AQUI >>
+![alt text](image.png)
 
-<<  COLOQUE A IMAGEM POST AQUI >>
+![alt text](image-1.png)
 
-<<  COLOQUE A IMAGEM PUT AQUI >>
+![alt text](image-2.png)
 
-<<  COLOQUE A IMAGEM DELETE AQUI >>
+![alt text](image-3.png)
 
 **Print da aba NETWORK com requisições Fetch/XHR de POST**
 

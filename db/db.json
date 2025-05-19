@@ -1,7 +1,7 @@
 {
   "destinos": [
     {
-      "id": 1,
+      "id": "1",
       "titulo": "Dolphin Mall, Miami USA",
       "imagem": "dolphin-mall-ramblas.jpg",
       "resumo": "O maior outlet de Miami, com variedade de lojas e entretenimento.",
@@ -10,7 +10,7 @@
       "destaque": true
     },
     {
-      "id": 2,
+      "id": "2",
       "titulo": "Sea World, San Diego USA",
       "imagem": "sandiego.png",
       "resumo": "Parque aquático com shows de animais marinhos e montanhas-russas.",
@@ -19,7 +19,7 @@
       "destaque": true
     },
     {
-      "id": 3,
+      "id": "3",
       "titulo": "Central Park, New York USA",
       "imagem": "Central-Park.jpg",
       "resumo": "Parque urbano icônico com paisagens deslumbrantes e atrações culturais.",
@@ -28,7 +28,7 @@
       "destaque": false
     },
     {
-      "id": 5,
+      "id": "5",
       "titulo": "Cataratas do Niágara, Nova York",
       "descricao": "Maravilha natural",
       "conteudo": "Cataratas do Niágara, em Nova York, são um dos mais impressionantes espetáculos naturais, com quedas d'água majestosas, passeios de barco emocionantes e vistas deslumbrantes.",
@@ -36,7 +36,7 @@
       "imagem": "niaraga.png"
     },
     {
-      "id": 6,
+      "id": "6",
       "titulo": "Museu Metropolitano de Arte",
       "descricao": "O famoso MET",
       "conteudo": "O Museu Metropolitano de Arte, em Nova York, é um dos maiores e mais prestigiosos museus do mundo, abrigando uma coleção impressionante de arte e artefatos de diversas culturas e épocas.",
@@ -44,7 +44,7 @@
       "imagem": "museum.jpg"
     },
     {
-      "id": 7,
+      "id": "7",
       "titulo": "Estátua da Liberdade, Nova York",
       "descricao": "Símbolo americano",
       "conteudo": "A Estátua da Liberdade, em Nova York, é um dos maiores símbolos dos Estados Unidos, representando liberdade e democracia, com vistas incríveis da cidade a partir de sua coroa.",
@@ -52,7 +52,7 @@
       "imagem": "estatua.jpg"
     },
     {
-      "id": 8,
+      "id": "8",
       "titulo": "Golden Gate Bridge, Califórnia",
       "descricao": "Ponte icônica de SF",
       "conteudo": "A Golden Gate Bridge, na Califórnia, é uma das pontes mais icônicas do mundo, ligando San Francisco a Marin County, com vistas deslumbrantes e uma arquitetura impressionante.",
@@ -60,7 +60,7 @@
       "imagem": "golden-gate.jpg"
     },
     {
-      "id": 9,
+      "id": "9",
       "titulo": "Casa Branca, Washington",
       "descricao": "Sede do governo",
       "conteudo": "A Casa Branca, em Washington, D.C., é a residência oficial e escritório do presidente dos Estados Unidos, um símbolo histórico e político do país, aberta para visitas guiadas.",
@@ -68,7 +68,7 @@
       "imagem": "casa-branca.jpg"
     },
     {
-      "id": 10,
+      "id": "10",
       "titulo": "Las Vegas Strip, Nevada",
       "descricao": "Capital do entretenimento",
       "conteudo": "A Las Vegas Strip, em Nevada, é uma avenida vibrante repleta de cassinos icônicos, hotéis luxuosos, shows espetaculares e uma vida noturna intensa, tornando-se um dos destinos mais famosos do mundo.",

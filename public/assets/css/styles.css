@@ -1,0 +1,89 @@
+/* Estilo para o título da página */
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #004080; /* Cor do título */
+  margin-bottom: 20px;
+}
+
+/* Corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+}
+
+/* Formulário */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Estilo para cada campo do formulário */
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Estilo para o botão de cadastrar */
+button {
+  background-color: #004080;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004080;
+}
+
+/* Estilos de Layout */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input[type="text"],
+form textarea {
+  margin-bottom: 10px;
+}
+
+form button {
+  margin-top: 20px;
+}
