@@ -23,7 +23,7 @@ Meu projeto é um projeto que se consiste em informar locais túristicos especif
 
 **Print da aba NETWORK com requisições Fetch/XHR de POST**
 
-<<  COLOQUE A IMAGEM AQUI >>
+![alt text](image-4.png)
 
 ## **Orientações Gerais**
 

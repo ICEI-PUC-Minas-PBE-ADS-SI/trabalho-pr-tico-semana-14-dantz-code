@@ -8,21 +8,50 @@
 </head>
 <body>
   <h1>Cadastro de Destino Turístico</h1>
+
+  <!-- Formulário de Cadastro -->
   <form id="form-cadastro">
     <label for="titulo">Título</label>
     <input type="text" id="titulo" required>
+
     <label for="descricao">Descrição</label>
     <textarea id="descricao" required></textarea>
+
     <label for="imagem">Imagem</label>
     <input type="text" id="imagem" required>
+
     <label for="conteudo">Conteúdo</label>
     <textarea id="conteudo" required></textarea>
+
     <label for="categoria">Categoria</label>
     <input type="text" id="categoria" required>
+
     <label for="destacar">Destacar</label>
     <input type="checkbox" id="destacar">
-    <button type="submit">Cadastrar</button>
+
+    <!-- Botão Dinâmico -->
+    <button type="submit" id="submitBtn">Cadastrar</button>
   </form>
+
+  <!-- Título para Destinos Cadastrados -->
+  <h2>Destinos Cadastrados</h2>
+
+  <!-- Tabela de Destinos -->
+  <div id="listaDestinos">
+    <table>
+      <thead>
+        <tr>
+          <th>Título</th>
+          <th>Categoria</th>
+          <th>Conteúdo</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Os destinos cadastrados serão listados aqui -->
+      </tbody>
+    </table>
+  </div>
 
   <script src="assets/scripts/cadastro.js"></script>
 </body>
