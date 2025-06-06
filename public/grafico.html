@@ -47,19 +47,17 @@
         document.addEventListener("DOMContentLoaded", function () {
             // Substitua pelo caminho correto da API ou dados JSON
             fetch("http://localhost:3000/destinos")  
-                .then((res) => {
-                    return res.json();
-                })
+                .then((res) => res.json())
                 .then((destinos) => {
                     // Verifique os dados que estão sendo recebidos
                     console.log(destinos); // Log para verificar se os dados são carregados corretamente
 
                     // Verifique se o array de destinos tem dados
-                    if (destinos.length === 0) {
+                    if (!Array.isArray(destinos) || destinos.length === 0) {
                         console.log("Nenhum destino encontrado");
-                        return; // Se não houver dados, não pro sseguir
+                        return; // Se não houver dados, não prosseguir
                     }
-aaaaa
+
                     // Contar o número de destinos por categoria
                     const categorias = {};
                     destinos.forEach((destino) => {

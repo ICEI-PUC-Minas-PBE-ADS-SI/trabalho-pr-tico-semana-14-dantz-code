@@ -19,4 +19,5 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 << Coloque aqui uma breve explicação da implementação feita nessa etapa>>
 
 ![alt text](image.png)
-,
+
+![alt text](image-1.png)
