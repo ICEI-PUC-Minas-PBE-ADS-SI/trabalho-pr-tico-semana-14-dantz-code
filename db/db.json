@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "destinos": [
     {
       "id": "1",
@@ -74,6 +75,22 @@
       "conteudo": "A Las Vegas Strip, em Nevada, é uma avenida vibrante repleta de cassinos icônicos, hotéis luxuosos, shows espetaculares e uma vida noturna intensa, tornando-se um dos destinos mais famosos do mundo.",
       "categoria": "Entretenimento",
       "imagem": "the-strip.jpg"
+=======
+  "usuarios": [
+    {
+      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
+      "login": "admin",
+      "senha": "123",
+      "nome": "Administrador do Sistema",
+      "email": "admin@abc.com"
+    },
+    {
+      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
+      "login": "user",
+      "senha": "123",
+      "nome": "Usuario Comum",
+      "email": "user@abc.com"
+>>>>>>> 77818689affa35b9d77a82483e0ac7bd43d29e84
     }
   ]
 }
