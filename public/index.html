@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Guia de Locais Turísticos</title>
     <link rel="stylesheet" href="assets/css/display.css" />
-    <script src="https://api.mapbox.com/mapbox-gl-js/v2.0.1/mapbox-gl.js"></script>
-    <link href="https://api.mapbox.com/mapbox-gl-js/v2.0.1/mapbox-gl.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
       /* Layout principal */
@@ -29,48 +27,6 @@
         width: 100%;
         padding: 20px;
         flex: 1; /* Garante que o conteúdo ocupe o restante do espaço disponível */
-      }
-
-      /* Cabeçalho do Mapa */
-      h3 {
-        text-align: center;
-        font-size: 2rem;
-        margin: 20px 0;
-      }
-
-      /* Ajustando o Mapa */
-      #map {
-        width: 100%;
-        height: 400px;
-        margin-bottom: 30px;
-        border-radius: 8px;
-      }
-
-      /* Estilo do Gráfico */
-      .chart-container {
-        background-color: #003366; /* Contorno azul escuro */
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-        margin: 20px 0;
-        display: block;
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-      canvas {
-        display: block;
-        margin: 0 auto;
-        max-width: 100%;
-        border-radius: 8px;
-      }
-
-      /* Estilo do título do gráfico */
-      .chart-title {
-        text-align: center;
-        font-size: 1.5rem;
-        margin: 20px 0;
       }
 
       /* Estilos de navegação */
@@ -137,6 +93,7 @@
           <li class="nav-item"><a href="#">Contato</a></li>
           <li class="nav-item">
             <a href="cadastro_local.html">Cadastrar Destino</a>
+            <a href="grafico.html">Grafico dos Destinos</a>
           </li>
         </ul>
       </nav>
@@ -151,18 +108,7 @@
         </p>
       </div>
 
-      <!-- Seção do Mapa -->
-      <h3>Mapa Interativo de Locais Turísticos</h3>
-      <div id="map"></div>
-
-      <!-- Seção de Gráficos -->
-      <h3 class="chart-title">Gráficos de Pontos Turísticos</h3>
-
-      <!-- Container do Gráfico com Contorno Azul -->
-      <div class="chart-container">
-        <canvas id="touristBarChart"></canvas>
-      </div>
-
+      <!-- Seção de Cartões (mantido como está) -->
       <div id="cards-container" class="cards-container"></div>
     </main>
 
@@ -174,44 +120,5 @@
       </div>
     </footer>
     <script src="assets/scripts/app.js"></script>
-
-    <script>
-      // Mapa interativo com Mapbox
-      mapboxgl.accessToken = 'your_mapbox_token'; // Substitua pelo seu token do Mapbox
-      const map = new mapboxgl.Map({
-        container: 'map',
-        style: 'mapbox://styles/mapbox/streets-v11',
-        center: [-43.2105, -22.9519], // Coordenadas do Rio de Janeiro
-        zoom: 5
-      });
-
-      const touristSpots = [
-        { name: 'Cristo Redentor', coordinates: [-43.2105, -22.9519] },
-        { name: 'Pão de Açúcar', coordinates: [-43.1785, -22.9480] }
-      ];
-
-      touristSpots.forEach(spot => {
-        new mapboxgl.Marker()
-          .setLngLat(spot.coordinates)
-          .setPopup(new mapboxgl.Popup().setText(spot.name))
-          .addTo(map);
-      });
-
-      // Gráfico de Barras com Chart.js
-      var ctx = document.getElementById('touristBarChart').getContext('2d');
-      var touristBarChart = new Chart(ctx, {
-        type: 'bar',
-        data: {
-          labels: ['Rio de Janeiro', 'São Paulo', 'Salvador'],
-          datasets: [{
-            label: 'Pontos Turísticos',
-            data: [2, 3, 1],
-            backgroundColor: ['#FF5733', '#33FF57', '#3357FF'],
-            borderColor: '#007BFF', // Adicionando o contorno azul
-            borderWidth: 3, // Espessura do contorno
-          }]
-        }
-      });
-    </script>
   </body>
 </html>
